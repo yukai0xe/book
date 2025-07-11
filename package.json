@@ -6,5 +6,8 @@
   },
   "dependencies": {
     "vitepress-plugin-tabs": "^0.7.1"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
   }
 }

@@ -33,7 +33,6 @@ export default defineConfig({
             { text: '變數宣告', link: '/javascript/變數宣告' },
             { text: '資料型別', link: '/javascript/資料型別' },
             { text: '運算式與運算子', link: '/javascript/運算式與運算子' },
-            { text: '流程判斷與迴圈', link: '/javascript/流程判斷與迴圈' },
             { text: '語法技巧', link: '/javascript/語法技巧' },
             { text: '記憶體探討', link: '/javascript/記憶體探討' },
           ]
