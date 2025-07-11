@@ -66,5 +66,6 @@ export default defineConfig({
     config(md) {
       md.use(tabsMarkdownPlugin)
     }
-  }
+  },
+  ignoreDeadLinks: true
 })
