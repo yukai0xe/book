@@ -1,5 +1,3 @@
-env:
-  ACTIONS_STEP_DEBUG: true
 name: Deploy to Production
 
 on:
@@ -27,12 +25,6 @@ jobs:
 
       - name: Build site
         run: npx vitepress build docs
-
-      - name: Check dist contents
-        run: |
-          echo "📁 檢查 docs/dist 是否存在："
-          ls -lah docs/dist || echo "❌ 沒有找到 docs/dist"
-      
 
       - name: Deploy to production branch
         uses: peaceiris/actions-gh-pages@v4
