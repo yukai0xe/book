@@ -43,8 +43,14 @@ export default defineConfig({
             { text: '進階 Array', link: '/javascript/進階 Array' },
             { text: '進階 Function', link: '/javascript/進階 Function' },
             { text: '進階 Object', link: '/javascript/進階 Object' },
-            { text: '同步非同步', link: '/javascript/同步非同步' },
-            { text: '網頁操作案例', link: '/javascript/網頁操作案例' }
+            { text: '同步非同步', link: '/javascript/同步非同步' }
+          ]
+        },
+        {
+          text: '實戰案例',
+          items: [
+            { text: '可即時搜尋的展開式使用者表格', link: '/javascript/網頁操作案例1' },
+            { text: '基於瀏覽器儲存的 ToDo List', link: '/javascript/網頁操作案例2' }
           ]
         }
       ],

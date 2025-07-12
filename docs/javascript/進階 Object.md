@@ -191,7 +191,7 @@ num instanceof Number;                  // true
 num.valueOf();                          // 100s
 ```
 
-::: tips
+::: tip
 不過這也不代表使用 `new` 來定義這些資料會比較好，因為在計算效率上，基本型別會更勝於物件型別
 :::
 
