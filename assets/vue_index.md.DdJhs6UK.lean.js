@@ -1,0 +1,1 @@
+import{_ as a,c as i,o as t,ai as l}from"./chunks/framework.BS5liULo.js";const c=JSON.parse('{"title":"Vue 主題總覽","description":"","frontmatter":{},"headers":[],"relativePath":"vue/index.md","filePath":"vue/index.md"}'),r={name:"vue/index.md"};function n(o,e,h,m,u,s){return t(),i("div",null,e[0]||(e[0]=[l("",6)]))}const f=a(r,[["render",n]]);export{c as __pageData,f as default};
